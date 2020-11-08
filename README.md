@@ -23,7 +23,7 @@ the ratio of votes.
 
 ![](https://via.placeholder.com/15/FFF129/000000?text=+)  `pins` : used for indicator light when transitioning between polls.
 
-![](https://via.placeholder.com/15/030202/000000?text=+)  `pins` : used to short circuit.
+![](https://via.placeholder.com/15/030202/000000?text=+)  `pins` : used to ground circuit.
 
 #### Circuit diagram
 **-- COMING SOON --**
