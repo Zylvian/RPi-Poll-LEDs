@@ -15,8 +15,6 @@ the ratio of votes.
 
 #### Pin layout
 
-#![Pins](https://i.imgur.com/OLPCoKe.png =250x250)
-
 <img src="https://i.imgur.com/OLPCoKe.png" height="600">
 
 ![](https://via.placeholder.com/15/6FFF5C/000000?text=+)  `pins` : used to control green LEDs.
