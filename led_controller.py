@@ -20,13 +20,18 @@ from vote_getter import VoteGetter
 
 class VotesToLeds:
 
-    def __init__(self):
+    def __init__(self,
+                 green_leds=[6,13,19,26],
+                 red_leds=[12,16,20,21],
+                 indicator=22):
         # Init leds
-        self.green_leds = LEDBarGraph(6, 13, 19, 26, pwm=True)
-        self.red_leds = LEDBarGraph(12, 16, 20, 21, pwm=True)
-        self.indicator = PWMLED(22)
+        # self.green_leds = LEDBarGraph(6, 13, 19, 26, pwm=True)
+        self.green_leds = LEDBarGraph(*green_leds, pwm=True)
+        # self.red_leds = LEDBarGraph(12, 16, 20, 21, pwm=True)
+        self.red_leds = LEDBarGraph(*red_leds, pwm=True)
+        self.indicator = PWMLED(indicator)
         self.vote_getter = VoteGetter()
-        self.curr_votes = Votes(1, 100)
+        self.curr_votes = Votes(100, 1)
         self.leds_from_votes(self.curr_votes)
 
     def leds_from_votes(self, votes: Votes):
