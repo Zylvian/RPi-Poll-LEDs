@@ -26,7 +26,8 @@ the ratio of votes.
 ![](https://via.placeholder.com/15/030202/000000?text=+)  `pins` : used to ground circuit.
 
 #### Circuit diagram
-**-- COMING SOON --**
+
+[- **Example circuit diagram for this project**](https://i.imgur.com/HdmhSLG.png)
 
 ---
 
